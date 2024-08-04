@@ -15,7 +15,7 @@ const Home = () => {
             user={loggedIn?.firstName || "Guest"}
             subtext="Access and Manage your account and transactions efficiently"
           />
-          
+
           <TotalBalanceBox
             accounts={[]}
             totalBanks={1}
